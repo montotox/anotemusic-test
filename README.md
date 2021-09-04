@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Layout ANote Music - Mobile First
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## View the [DEMO](https://anotemusic.netlify.app).
 
-## Available Scripts
+## Starting 🚀
 
-In the project directory, you can run:
+_These instructions will allow you to get a copy of the project running on your local machine for development and testing purposes._
 
-### `yarn start`
+Look **Deployment** to know how to deploy th project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Pre-requirements 📋
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Look my design in [Figma](https://www.figma.com/file/01KAW87a0l8wjZo843Ko4y/Test-ANoteMusic?node-id=0%3A1)
 
-### `yarn test`
+### Installation 🔧
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. You need to download the repo in your machine.
 
-### `yarn build`
+_Remember download in your project folder._
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+$ git clone ttps://github.com/montotox/anotemusic-test.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Run your app in your terminal.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_Remember install the packages of node_modules running **npm install**._
 
-### `yarn eject`
+## Running test ⚙️
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Run your app with **npm start** and visit in your browser http://localhost:3000.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+_Tip: If you want to view the app in your phone, you can ave the app running on your PC and if you are on the same WIFI network, you only need to know the IP of your PC, enter that IP from your cell phone (example: 198.162.1.4:3000)._
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Posible problems 🔩
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_Check that the correct data flow._
 
-## Learn More
+- View error in the terminal.
+- Check if is compatible your node version with the repo.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment 📦
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+_Check that you have no errors and then run:_
 
-### Code Splitting
+```
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Autors ✒️
 
-### Analyzing the Bundle Size
+- **Ricardo Coronel** - _Desing/Coding/Documentation_ - [montotox](https://github.com/montotox)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Licencia 📄
 
-### Making a Progressive Web App
+## Expressions of Gratitude 🎁
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Invite a beer 🍺 or a coffe ☕.
+- I program with ❤️
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
