@@ -1,0 +1,14 @@
+@import "./scss/index.scss";
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#017cba, #ffffff);
+
+  &__isologo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 16px;
+  }
+}

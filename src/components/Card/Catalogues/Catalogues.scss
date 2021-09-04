@@ -1,0 +1,42 @@
+@import "../../../scss/index.scss";
+
+.list {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 100px;
+}
+.catalogues {
+  min-width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 10px;
+
+  &__title {
+    margin-left: 16px;
+
+    &-header_left {
+      font-size: 10px;
+      margin-left: 100px;
+    }
+    &-header_right {
+      font-size: 10px;
+      margin-left: 75px;
+    }
+  }
+}
+.catalogue {
+  margin-left: 10px;
+}
+.revenue {
+  color: #017cba;
+  text-align: end;
+  padding-right: 5px;
+}
+
+@media screen and (min-width: $breakpoint-phone) {
+  .catalogues {
+    width: 600px;
+  }
+}

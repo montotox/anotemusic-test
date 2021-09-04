@@ -1,0 +1,39 @@
+@import "../../../scss/index.scss";
+
+.card {
+  display: flex;
+  justify-content: center;
+
+  &__header {
+    margin: 0;
+  }
+
+  &__balance {
+    margin: 0;
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  &__group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    color: #276425;
+
+    &-prebalance {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      &_icon {
+        height: 16px !important;
+        width: auto !important;
+        font-size: 15px;
+      }
+
+      &_amount {
+        font-size: 12px;
+      }
+    }
+  }
+}

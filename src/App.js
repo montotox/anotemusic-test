@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import Drawer from "./components/Drawer";
+import Isologo from "./assets/img/isologo.svg";
+import Balance from "./components/Card/Balance";
+import Catalogues from "./components/Card/Catalogues";
+import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Drawer />
+      <img src={Isologo} alt="isologo" className="App__isologo" />
+      <Balance />
+      <Catalogues />
+      by Montotox
+      <Navbar />
     </div>
   );
 }
